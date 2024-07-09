@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rolls=("0" "0" "0" "1" "1" "2")
+i=$(($RANDOM % 6))
+
+echo ${rolls[$i]}
