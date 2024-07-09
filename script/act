@@ -1,0 +1,13 @@
+#!/bin/bash
+
+SCRIPT_DIR="$(dirname "$(realpath "$0")")"
+DATA_DIR="$SCRIPT_DIR/../data"
+
+setting="$(sort -R "$DATA_DIR/setting.md" | head -1 )"
+opponent="$(sort -R "$DATA_DIR/enemy.md" | head -1 )"
+
+echo "$setting"
+echo "$opponent"
+
+r=$("$SCRIPT_DIR"/mag)
+echo $((3 + $r))
