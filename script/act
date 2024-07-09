@@ -6,8 +6,23 @@ DATA_DIR="$SCRIPT_DIR/../data"
 setting="$(sort -R "$DATA_DIR/setting.md" | head -1 )"
 opponent="$(sort -R "$DATA_DIR/enemy.md" | head -1 )"
 
+r=$("$SCRIPT_DIR"/mag)
+struct=$(cat <<EOF
+$($SCRIPT_DIR/structure 0)
+ - 1.
+ - 2.
+ - 3.
+EOF
+)
+goals=$(sort -R "$DATA_DIR/scene.md")
+
+for i in 1 2 3; do 
+    goal="$(head -1 <<< "$goals")"
+    goals="$(tail -n +2 <<< "$goals")"
+    struct=$(sed "s/^ - $i\./\0 $goal/" <<< "$struct")
+done
+
 echo "$setting"
 echo "$opponent"
+echo "$struct"
 
-r=$("$SCRIPT_DIR"/mag)
-echo $((3 + $r))
