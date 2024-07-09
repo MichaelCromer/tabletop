@@ -1,7 +1,5 @@
 # ACT: Guarded Warehouse
 
----
-
 **Setting**:    Urban
 **Enemy**:      Humanoid
 **Theme**:      Assault
@@ -11,7 +9,6 @@
 A well-stocked warhouse has been fortified to defend its contents. Its guardians will
 attempt to prevent any disturbance and punish any intruders.
 
----
 
 ## Schematic
 
@@ -74,4 +71,4 @@ One heavily-armed and armoured soldier is supported by a priest.
 The Soldier may be goaded in their enthusiasm to damage the roof posts as collateral
 damage from their greatsword attacks.
 
----
+

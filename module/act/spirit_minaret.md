@@ -1,7 +1,5 @@
 # ACT: Spirit Minaret
 
----
-
 **Setting**:    Water
 **Enemy**:      Undead
 **Theme**:      Challenge
@@ -11,7 +9,6 @@
 A half-spectral spire hovers above a chill lake. It swirls with the spectal forms of the
 dead; unhappy souls trapped there by its foul magic. An eerie light shines at its apex.
 
----
 
 ## Schematic
 
@@ -81,4 +78,4 @@ The orb must be treated with sufficient skill and care before it is safe to remo
 manually. Once removed and disconnected from its housing and source of power, it ceases
 to function.
 
----
+

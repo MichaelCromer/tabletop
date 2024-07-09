@@ -1,7 +1,5 @@
 # ACT: Zombie Infested Town
 
----
-
 **Setting**:    Urban
 **Enemy**:      Undead
 **Theme**:      Stealth
@@ -11,7 +9,6 @@
 A town almost completely overrun by zombies. Safety can be found at the Stockade, but
 those who attract the attention of the Horde are doomed to join it.
 
----
 
 ## Schematic
 
@@ -86,4 +83,4 @@ There is no preferential direction for access to the Stockade, as the palisade w
 well-maintained. The gate, being barred and in full view of the Horde, offers no real
 alternative to scaling the wall.
 
----
+

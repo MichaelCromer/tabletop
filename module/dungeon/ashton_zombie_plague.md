@@ -1,7 +1,5 @@
 # DUNGEON: Ashton
 
----
-
 **Setting**:    Urban
 **Enemy**:      Undead
 **Theme**:      Mystery
@@ -12,7 +10,6 @@ The sleepy town of Ashton has become almost completely overrun by zombies. A str
 structure has appeared above the lake, but it is inaccessible until the dark magic that
 hides it is dispelled.
 
----
 
 ## Schematic
 
@@ -78,4 +75,4 @@ source of the undead plague.
 - While the Tower is active, any humanoid that dies within 1 mile of it has its soul
   stolen by the device at its apex, and immediately rises up as a zombie.
 
----
+
