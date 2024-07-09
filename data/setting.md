@@ -1,0 +1,12 @@
+Coast
+Desert
+Forest
+Jungle
+Hills
+Mountain
+Plains
+Swamp
+Tundra
+Urban
+Underground
+Water

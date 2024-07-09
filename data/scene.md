@@ -1,0 +1,15 @@
+Attack the enemy
+Defend the location
+Defend the object
+Defend the enemy
+Defend the ally
+Cross the chasm
+Board the vessel
+Persuade the ruler
+Open the door
+Scale the wall
+Find the object
+Avoid the enemy
+Avoid the trap
+Explore the location
+Find the object
