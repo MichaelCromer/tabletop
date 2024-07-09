@@ -1,8 +1,8 @@
 # ACT: Guarded Warehouse
 
-**Setting**:    Urban
-**Enemy**:      Humanoid
-**Theme**:      Assault
+| Setting  | Enemy    | Theme    |
+|----------|----------|----------|
+| Urban    | Humanoid | Assault  |
 
 **Goal**: Assualt the warehouse and defeat its guardians.
 

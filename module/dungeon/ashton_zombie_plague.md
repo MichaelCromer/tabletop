@@ -1,8 +1,8 @@
 # DUNGEON: Ashton
 
-**Setting**:    Urban
-**Enemy**:      Undead
-**Theme**:      Mystery
+| Setting | Enemy   | Theme   |
+|---------|---------|---------|
+| Urban   | Undead  | Mystery |
 
 **Goal**: Investigate what has caused Ashton to become overrun by zombies.
 

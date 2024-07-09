@@ -1,8 +1,8 @@
 # ACT: Spirit Minaret
 
-**Setting**:    Water
-**Enemy**:      Undead
-**Theme**:      Challenge
+| Setting   | Enemy     | Theme     |
+|-----------|-----------|-----------|
+| Water     | Undead    | Challenge |
 
 **Goal**: Ascend the minaret to disable its grim activity.
 

@@ -1,8 +1,8 @@
 # ACT: Zombie Infested Town
 
-**Setting**:    Urban
-**Enemy**:      Undead
-**Theme**:      Stealth
+| Setting | Enemy   | Theme   |
+|---------|---------|---------|
+| Urban   | Undead  | Stealth |
 
 **Goal**: Get to the safety of the Stockade at the centre of town.
 
