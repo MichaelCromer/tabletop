@@ -14,7 +14,7 @@ $($SCRIPT_DIR/structure 0)
  - 3.
 EOF
 )
-goals=$(sort -R "$DATA_DIR/scene.md")
+goals=$(sort -R "$DATA_DIR/goal.md")
 
 for i in 1 2 3; do 
     goal="$(head -1 <<< "$goals")"
