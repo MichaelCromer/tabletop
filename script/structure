@@ -33,46 +33,4 @@ EOF
     echo "$struct"
 }
 
-function gen_four() {
-    struct=$(cat <<EOF
-                            
-
-          _____                   _____
-         |1    |aaaaaaaaDaaaaaaaa|3    |
-        =|  A  |      _____      |  C  |=
-         |_____|bbbbb|2    |ccccc|_____|
-                     |  B  |
-                     |_____|
- - 1.
- - 2.
- - 3.
- - 4.
-EOF
-)
-    r=$(($RANDOM % 4))
-
-    patt=""
-    [[ $r == "0" ]] && patt+="aD"
-    [[ $r == "1" ]] && patt+="b"
-    [[ $r == "2" ]] && patt+="c"
-
-    struct=$(tr "$patt" " " <<< "$struct")
-    tensions=$(tr -cd "ABCD" <<< "$struct")
-    i=$(($RANDOM % ${#tensions}))
-    tension=${tensions:$i:1}
-    struct=$(sed "s/.$tension./[X]/" <<< "$struct")
-    struct=$(tr "ABC" " " <<< "$struct")
-    struct=$(tr "Dabc" "=" <<< "$struct")
-    goals=$(sort -R "$DATA_DIR/scene.md")
-
-    for i in 1 2 3; do 
-        goal="$(head -1 <<< "$goals")"
-        goals="$(tail -n +2 <<< "$goals")"
-        struct=$(sed "s/^ - $i\./\0 $goal/" <<< "$struct")
-    done
-
-    echo "$struct"
-}
-
-
 [[ $mag == "0" ]] && echo "$(gen_three)"
