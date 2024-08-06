@@ -3,34 +3,33 @@
 SCRIPT_DIR="$(dirname "$(realpath "$0")")"
 DATA_DIR="$SCRIPT_DIR/../data"
 
-mag="$1"
-[[ ! "$mag" =~ ^[0-2]$ ]] && exit 1
-
-function gen_three() {
-    struct=$(cat <<EOF
-          _____                   _____
-         |1    |aaaaaaaaDaaaaaaaa|3    |
-        =|  A  |      _____      |  C  |=
-         |_____|bbbbb|2    |ccccc|_____|
-                     |  B  |
-                     |_____|
+STRUCTURE_PATTERN=$(cat <<EOF
+      _____               _____
+     |     |aaaaaaDaaaaaa|     |
+    =|  A  |    _____    |  C  |=
+     |_____|bbb|     |ccc|_____|
+               |  B  |
+               |_____|
 EOF
 )
+
+function gen_three() {
+    struct="$STRUCTURE_PATTERN"
     r=$(($RANDOM % 4))
 
-    patt=""
-    [[ $r == "0" ]] && patt+="aD"
-    [[ $r == "1" ]] && patt+="b"
-    [[ $r == "2" ]] && patt+="c"
+    remove=""
+    [[ $r == "0" ]] && remove+="aD"
+    [[ $r == "1" ]] && remove+="b"
+    [[ $r == "2" ]] && remove+="c"
 
-    struct=$(tr "$patt" " " <<< "$struct")
+    struct=$(tr "$remove" " " <<< "$struct")
     tensions=$(tr -cd "ABCD" <<< "$struct")
     i=$(($RANDOM % ${#tensions}))
     tension=${tensions:$i:1}
-    struct=$(sed "s/.$tension./[X]/" <<< "$struct")
+    struct=$(sed "s/.$tension./[!]/" <<< "$struct")
     struct=$(tr "ABC" " " <<< "$struct")
     struct=$(tr "Dabc" "=" <<< "$struct")
-    echo "$struct"
+    printf "$struct"
 }
 
-[[ $mag == "0" ]] && echo "$(gen_three)"
+[[ "$1" == "0" ]] && echo "$(gen_three)"

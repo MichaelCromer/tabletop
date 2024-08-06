@@ -2,27 +2,115 @@
 
 SCRIPT_DIR="$(dirname "$(realpath "$0")")"
 DATA_DIR="$SCRIPT_DIR/../data"
+ACT_DIR="$SCRIPT_DIR/../module/act"
 
-setting="$(sort -R "$DATA_DIR/setting.md" | head -1 )"
-opponent="$(sort -R "$DATA_DIR/enemy.md" | head -1 )"
 
-r=$("$SCRIPT_DIR"/mag)
-struct=$(cat <<EOF
-$($SCRIPT_DIR/structure 0)
- - 1.
- - 2.
- - 3.
+function existing_act()
+{
+    file="$ACT_DIR"/$(ls "$ACT_DIR" | sort -R | head -1)
+
+    title=$(head -1 "$file" | sed 's/# //')
+    setting=$(sed -n '/Setting/,+2p' "$file" | sed 's/[ |-]\+/ /g' | sed '/^\s*$/d' )
+    goals=$(sed -n 's/\*\*Goal\*\*://p' "$file" | tail -n +2 | nl -w 4 -s " - ")
+    structure=$(sed -n '/Schematic/,/Scenes/p' "$file" | sed '1d;$d')
+
+    printf "$title\n"
+    printf "$setting\n"
+    printf "$structure\n\n"
+    printf "$goals\n"
+}
+
+
+function template_act()
+{
+    cat <<EOF
+# ACT: Act Name
+
+| Setting  | Enemy    | Theme    |
+|----------|----------|----------|
+|          |          |          |
+
+**Goal**: Act main goal
+
+Brief description of act
+
+## Schematic
+
+      _____               _____
+     |     |             |     |
+    =|     |    _____    |     |=
+     |_____|   |     |   |_____|
+               |     |
+               |_____|
+
+## Scenes
+
+### 1. First Scene Name
+
+**Goal**: First scene goal
+
+Very short description
+
+- **Point of Interest** and any mechanics that relate to it
+
+Further notes or description
+
+### 2. Second Scene Name
+
+**Goal**: Second scene goal
+
+Very short description
+
+- **Point of Interest** and any mechanics that relate to it
+
+Further notes or description
+
+### 3. Third Scene Name
+
+**Goal**: Third scene goal
+
+Very short description
+
+- **Point of Interest** and any mechanics that relate to it
+
+Further notes or description
+
+### [!] Central tension
+
+Very short description
+
+- **Point of Interest** and any mechanics that relate to it
+
+Further notes or description
 EOF
-)
-goals=$(sort -R "$DATA_DIR/goal.md")
+}
 
-for i in 1 2 3; do 
-    goal="$(head -1 <<< "$goals")"
-    goals="$(tail -n +2 <<< "$goals")"
-    struct=$(sed "s/^ - $i\./\0 $goal/" <<< "$struct")
-done
 
-echo "$setting"
-echo "$opponent"
-echo "$struct"
+function random_act()
+{
+    title="ACT: Randomly Generated"
+    setting="$(sort -R "$DATA_DIR/setting.md" | head -1 )"
+    opponent="$(sort -R "$DATA_DIR/enemy.md" | head -1 )"
+
+    structure="$($SCRIPT_DIR/structure 0)"
+
+    all_goals=$(sort -R "$DATA_DIR/goal.md")
+    goals=""
+    for i in 1 2 3; do
+        goal="$(head -1 <<< "$all_goals")"
+        all_goals="$(tail -n +2 <<< "$all_goals")"
+        goals="$goals$goal\n"
+    done
+    goals=$(printf "$goals" | nl -w 4 -s " - ")
+
+    printf "$title\n"
+    printf "$setting\n"
+    printf "$opponent\n"
+    printf "$structure\n\n"
+    printf "$goals\n"
+}
+
+[[ "$1" == "-r" ]] && random_act && exit 0
+[[ "$1" == "-e" ]] && existing_act && exit 0
+[[ "$1" == "-t" ]] && template_act && exit 0
 
