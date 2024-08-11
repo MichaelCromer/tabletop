@@ -24,7 +24,7 @@ function existing_act()
 }
 
 
-function template_act()
+function blank_act()
 {
     cat <<EOF
 # ACT: Act Name
@@ -117,5 +117,5 @@ function random_act()
 
 [[ "$1" == "-r" ]] && random_act && exit 0
 [[ "$1" == "-e" ]] && existing_act && exit 0
-[[ "$1" == "-t" ]] && template_act && exit 0
+[[ "$1" == "-b" ]] && blank_act && exit 0
 
