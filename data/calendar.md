@@ -2,18 +2,21 @@
 
 ## Spring
 
-### Early Spring
+### Early Spring (Thaw, Thorn)
 
 001 New Year
 002-015 Early Spring W1&2
-016
+016 Greensnight
 017-030 Early Spring W3&4
 
-### Mid Spring
+### Mid Spring ( The Myrtatch )
 
-031
+- Mina-Myrta 
+- Salmon
+
+031 Day of Bright Water
 032-045 Mid Spring W1&2
-046 Vernal Equinox
+046 Vernal Equinox (Myrtlewatch)
 047-060 Mid Spring W3&4
 
 ### Harrow
@@ -61,11 +64,15 @@ Late Spring
 196
 197-210 Early Autumn W3&4
 
-### Mid Autumn
+### Mid Autumn ( The Mindering )
 
-211
+- Myne-Mirta
+- Ravens
+- Mists
+
+211 Day of Dark Water
 212-225 Mid Autumn W1&2
-226 Autumnal Equinox
+226 Autumnal Equinox (Mistlewatch)
 227-240 Mid Autumn W3&4
 
 ### Late Autumn
