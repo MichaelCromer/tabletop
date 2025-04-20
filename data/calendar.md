@@ -11,7 +11,7 @@
 
 ### Mid Spring ( The Myrtatch )
 
-- Mina-Myrta 
+- Myrta-Mina
 - Salmon
 
 031 Day of Bright Water
@@ -43,6 +43,8 @@ Late Spring
 
 ### Mid Summer
 
+Em
+
 121
 122-135 Mid Summer W1&2
 136 Summer Solstice
@@ -66,7 +68,7 @@ Late Spring
 
 ### Mid Autumn ( The Mindering )
 
-- Myne-Mirta
+- Mina-Myrta
 - Ravens
 - Mists
 
@@ -76,6 +78,8 @@ Late Spring
 227-240 Mid Autumn W3&4
 
 ### Late Autumn
+
+Rot
 
 241
 242-255 Late Autumn W1&2
@@ -91,14 +95,14 @@ Late Spring
 286
 287-300 Early Winter W3&4
 
-### Mending
+### Mid Winter
 
 301
 302-315 Mending W1&2
 316 Winter Solstice
 317-330 Mending W3&4
 
-### Making
+### Late Winter
 
 331
 332-345 Making W1&2
