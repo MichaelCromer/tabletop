@@ -1,6 +1,8 @@
 # Downtime
 
-The Downtime rules govern time spent in Settlements; populated, non-hostile locations where the players can act and move about freely.  Settlements are where characters rest, resupply, gather information, advance along the skill web, and engage with friendly NPCs. It is possible to be in a Settlement and not be in Downtime (for example, an urban combat encounter), but the converse is not typical.However, if you wish, Downtime can also cover travel between Settlements along non-hostile routes.  
+Downtime is one of the four modes of play with a formal ruleset.
+
+The Downtime rules govern time spent in Settlements; populated, non-hostile locations where the players can act and move about freely.  Settlements are where characters rest, resupply, gather information, advance along the skill web, and engage with friendly NPCs. It is possible to be in a Settlement and not be in Downtime (for example, an urban combat encounter), but the converse is not typical. However, if you wish, Downtime can also cover travel between Settlements along friendly or even neutral travel routes.
 
 There are no base resource requirements for Downtime, other than a small amount of gold for living costs. Players may offset this by working for money, and costs may increase if they wish to buy items, or material for crafting.
 
@@ -11,16 +13,17 @@ Game progression does not stop in Downtime, and the pressure is not totally off 
 Here is a short summary of running Downtime.
 
  - Announce the shift into Downtime as soon as the players arrive at a safe location.
- - Announce a Downtime turn and ask for player Downtime actions. A Downtime turn is ordinarily one full day and night. A player may make one action per Downtime turn. At the same time, start recording World actions. You may prefer not to announce or narrate these, depending on circumstances.
- - Resolve the downtime turn, beginning with deducting living costs. All actions in a single Downtime turn are resolved simultaneously or at your discretion; there is no specific action ordering.
+ - Announce a Downtime turn and ask for player Downtime actions. A Downtime turn is ordinarily one full day and night. A player may make one action per Downtime turn.
+ - Resolve the downtime turn, beginning with deducting living costs. All actions in a single Downtime turn are resolved simultaneously at your discretion; there is no specific order of events.
+ - At the same time, make a World action. You may prefer not to announce or narrate these, depending on circumstances.
  - Continue to resolve downtime turns like this until Downtime ends. This occurs as soon as the players decide to make a journey into the wilderness (passing into Travel mode), or some other event briefly interrupts it (such as an urban combat or negotiation encounter starting Pressure mode).
 
 Some tips you might consider:
 
  - Some actions may span several days (for instance, a player is crafting a magic item and will continue to do so until it is complete), while some actions would realistically only occupy a few minutes (like meeting with an important NPC). Compress or expand your narration to suit these circumstances; afford the crafting player a few sentences describing their efforts and the eventual outcome, and then allow the negotiation scene to play out in real time. Generally, if the outcome of a multi-day action will not materially affect the flow of the game, you should just narrate the outcome, rather than each day of effort.
- - It can be assumed the party has plenty of time to coordinate. Be generous in allowing the players to retroatctively change the order of events or even entire actions, provided it makes sense to do so. 
- - Likewise, freely permit players to travel between points of interest as required by their actions. Compress this movement into one or two lines of narration, simply to give environmental flavour to the scene.
- - Rumours are a good way to feed your players with information about the game world. Without information, your players can't make decisions about what to do next, so you should not be shy about providing it to them -- instead of hiding rumours behind player actions or skill checks, player characters should naturally become more aware of rumours and current events the longer they stay in town. This is one purpose for World actions.
+ - It can be assumed the party has plenty of time to coordinate. Be generous in allowing the players to retroatctively change the order of events or even entire actions, provided it makes sense to do so.
+ - Likewise, freely permit players to travel between points of interest as required to complete their actions. Compress this movement into one or two lines of narration, simply to give environmental flavour to the scene.
+ - Rumours are a good way to feed your players with information about the game world. Without information, your players can't make decisions about what to do next, so you should not be shy about providing it to them -- instead of hiding rumours behind player actions or skill checks, player characters should naturally become more aware of rumours and current events the longer they stay in town. World actions are an ideal means for delivering this kind of information.
 
 ## Downtime Actions
 
@@ -30,14 +33,34 @@ Here is a list of Downtime actions that players can take. You may wish to add or
 |---|---|
 | Carouse | Eat, drink, and be merry |
 | Craft | Create items |
-| Investigate | Find information of a social nature |
-| Meet | Arrange a meeting with, or meet with, an NPC |
-| Pray | Worship a deity |
-| Research | Find information of an academic nature |
+| Investigate | Discover information of a social nature |
+| Meet | Arrange a meeting, or meet, with an NPC |
+| Pray | Entreat a deity |
+| Research | Discover information of an academic nature |
 | Rest | Do nothing |
 | Trade | Buy or sell items |
 | Train | Improve one's skills and abilities |
 | Work | Practice a profession or trade in return for profit |
+
+### Downtime Rolls
+
+Most Downtime actions are resolved using a Cumulative (Ability) roll:
+ - The player initially rolls a pool of (1+N)d6, where N is their bonus for the relevant ability.
+ - If any one die shows a six, the roll overall counts as one success. If more than one die shows a six, the roll overall counts as three successes. If no die shows a six, the roll overall counts as one failure.
+ - For each consecutive day the action is repeated, the dice pool increases by 1d6.
+ - The player tallies the number of successes, resolving the action when they attain the required number of successes.
+
+Since many Downtime activities are naturally collaborative, if multiple players wish to contribute to a task, have them roll individually but track their successes and failures in a shared total.
+
+As GM, you may optionally apply penalties for failures, if the situation warrants it. You may even choose to have the action fail entirely if they accumulate too many failures. However, unless there is a good narrative or gameplay reason for failure, you should err on the side of allowing player actions to succeed.
+
+The suggested difficulties for Downtime rolls are:
+| Difficulty | Successes |
+|---|---|
+| Easy   |  3 |
+| Medium |  6 |
+| Hard   | 10 |
+
 
 ### Carouse
 
@@ -56,35 +79,38 @@ Notes:
  - requires a number of successes
  - success chance increases per consecutive day spent
 
+
 ### Investigate
 
-Notes:
- - depends on Charm skill. 
- - requires player to indicate exactly what they would like to find (not just generic rumours)
- - success chance increases per consecutive day spent
+Investigation is for when a player wishes to learn something about the people, places, and things in their environment: rumours, gossip, secrets, or local lore.
+
+A player Investigates by announcing a specific piece of information they wish to learn more about.  They then make a Cumulative (Charm) roll against the difficulty of learning this information. As GM, you may decide if this effort has a chance of meaningful failure; perhaps the information is sensitive or the investigation attracts unwanted attention.
+
 
 ### Meet
 
-Notes:
- - depends on Charm skill.
- - some NPCs are hard to find or hard to meet with, this action also covers the process of negotiating a meeting
- - success chance increases depending on circumstances (disposition, player reputation, resources spent as gifts or bribes, etc)
- - meeting itself plays as a scene with potential skill checks, also potentially as a Pressure scenario
+Meeting is for when players wish to have a social encounter with a specific NPC.
+
+A player Meets by announcing a specific NPC within the Settlement they would like to meet with. The player must have the means to locate and communicate with the NPC in question (learning how to find or contact the NPC could be the outcome of a prior Investigation roll, for example). There are two phases to resolving this action.
+
+If the player(s) can reasonably meet with the NPC directly, then this action progresses immediately to a social interaction scene. Otherwise, the player(s) must make a Cumulative (Charm) roll against the difficulty of arranging a meeting with the NPCs.  As GM, you decide whether there is any meaningful consequences for failure; perhaps the NPC becomes irritated by the attempts to contact them, and begins the social encounter with a negative disposition.
+
 
 ### Pray
 
-Notes:
- - depends on Charm skill. 
- - requires a player to indicate what they are praying for (give a table? or just information/intervention?)
- - requires a player to be "known" by the god; likely a follower
- - success chances do not increase per day but are improved by circumstance (temple, ritual, etc)
+Praying is for when players wish to request aid, knowledge, or some other divine intercession.
+
+A player Prays by announcing which deity they are praying to and which specific divine action they wish to occur. The player must be known to the deity (as an established follower, perhaps), or otherwise have some reason for the deity to care about them.
+
+The player then makes a plain d6 roll with cumulative successes and failures (one failure on a roll of no sixes, one success on a roll of one six, three successes on a roll of more than one six). Praying does not benefit from any ability score, and the number of dice does not increase with repeated consecutive attempts. Instead, a player may increase the number of dice rolled in any one attempt by Praying under more favourable circumstances: following correct ritual procedure, praying within a temple or other hallowed space, performing sacrifices, dedicating deeds to the deity in question, and other such acts.
+
 
 ### Research
 
-Notes:
- - depends on Wit skill. 
- - requires a player to indicate what they are looking for
- - success chances do not increase per day but are improved by circumstance (library, fellow researchers, etc)
+Research is for when players wish to learn some piece of information about a specific person, place or thing: history, arcane or academic lore, and other such things of this nature.
+
+A player Researches by announcing the specific piece of information they wish to learn more about.  Provided they have access to the required resources (such as specific tomes, or specific individuals), they then make a Cumulative (Wit) roll against the difficulty of learning this information. Typically, there is no chance of meaningful failure once the conditions of obtaining the information are met.
+
 
 ### Rest
 
@@ -92,15 +118,19 @@ Notes:
  - improves regen of *SOMETHING*. Exact mechanic TBD. probably long-term health regen or "action point" style resources.
  - long-term injuries, curses, diseases, etc, require Rest to fix, with consecutive days increasing chances of recovery
 
+
 ### Trade
 
-Notes:
- - generally just succeeds if possible in town, no skill rolls etc (unless haggling or some unusual circumstances)
+Trading is for when players wish to buy or sell items -- bulk trade goods, crafting materials, or personal equipment.
+
+Provided the desired goods can be found within the current Settlement, and the players are happy to pay the gold cost, there is no roll required to complete a Trade action -- it automatically succeeds. You may choose whether or not to run a social scene for the interaction with the merchants (for example, if the players wish to haggle). If the player wishes to buy multiple items, you should of course allow them to do so within a single Trade action.
+
 
 ### Train
 
 Notes:
  - requires a trainer or unspent skill points. exact mechanic tbd but allows a player to pick options in the skill tree.
+
 
 ### Work
 
@@ -117,7 +147,7 @@ Exactly what work is available will depend on the location and the specifics of 
 
 ## World Actions
 
-The game world continues to advance while the players are in Downtime. As GM, you are responsible for what this means exactly for your game -- which events specifically advance the story of your world -- but here are some generic options that you can adapt to your needs.
+The game world continues to advance while the players are in Downtime. As GM, you are responsible for what this means exactly within your own game world -- which events specifically advance the narrative -- but here are some generic options that you can adapt to your needs.
 
 Every day of Downtime, make a **world action** roll (Cumulative d6, tiered), then choose from or roll for one of these options.
 
@@ -144,7 +174,7 @@ Running Downtime requires a clear picture of the Settlement that the players are
 
 Briefly put, you should make the players aware of the scale of the Settlement, so they have some idea of what goods and services will be available -- the larger the settlement, the more varied and the better the access. The scale of the Settlement also affects how players move through it, and how this motion is narrated.
 
-This system conceives of Settlement structure and travel as a **point crawl**. This means that points of interest exist as isolated scenes connected by short legs of travel that automatically succeeds (with perhaps a line or two of narration). 
+This system conceives of Settlement structure and travel as a **point crawl**. This means that points of interest exist as isolated scenes connected by short legs of travel that automatically succeeds (with perhaps a line or two of narration).
 
 ### Settlement Types
 
