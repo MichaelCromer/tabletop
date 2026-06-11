@@ -21,7 +21,7 @@ Here is a short summary of running Downtime.
 Some tips you might consider:
 
  - Some actions may span several days (for instance, a player is crafting a magic item and will continue to do so until it is complete), while some actions would realistically only occupy a few minutes (like meeting with an important NPC). Compress or expand your narration to suit these circumstances; afford the crafting player a few sentences describing their efforts and the eventual outcome, and then allow the negotiation scene to play out in real time. Generally, if the outcome of a multi-day action will not materially affect the flow of the game, you should just narrate the outcome, rather than each day of effort.
- - It can be assumed the party has plenty of time to coordinate. Be generous in allowing the players to retroatctively change the order of events or even entire actions, provided it makes sense to do so.
+ - It can be assumed the party has plenty of time to coordinate. Be generous in allowing the players to retroactively change the order of events or even entire actions, provided it makes sense to do so.
  - Likewise, freely permit players to travel between points of interest as required to complete their actions. Compress this movement into one or two lines of narration, simply to give environmental flavour to the scene.
  - Rumours are a good way to feed your players with information about the game world. Without information, your players can't make decisions about what to do next, so you should not be shy about providing it to them -- instead of hiding rumours behind player actions or skill checks, player characters should naturally become more aware of rumours and current events the longer they stay in town. World actions are an ideal means for delivering this kind of information.
 
@@ -46,19 +46,18 @@ Here is a list of Downtime actions that players can take. You may wish to add or
 
 ### Carouse
 
-Notes:
- - comes at a gold cost. variable, player can opt to spend more for more extreme outcomes
- - roll on the table, a mix of good and bad outcomes, lucky dip of material and social results
- - a chance to suffer a penalty the next day (hangover), disadvantange on X roll?
- - success/failure chances get more extreme with consecutive days spent
- - depends on Charm skill?
+Carousing is for when players wish to celebrate, network, or simply enjoy the pleasures of civilisation.
+
+A player Carouses by announcing how much gold they wish to spend and the kind of establishment they patronise. They then make a Circumstance check, where each day's living expenses worth of gold paid incresases the number of dice by one. Charm may grant bonus dice at your discretion.
+
+TODO: Implement table or other outcome decided balancing risk/reward, pushed to extremes by consecutive Carousing.
+
 
 ### Craft
 
-Notes:
- - gold and crafting materials investment needed
- - player must have specific crafting skill of required level
- - Cumulative Wit roll
+Crafting is for when players wish to create items:  equipment, consumables, works of art, or magic items.
+
+A player Crafts by announcing what they wish to make. You set the cost in gold and materials and the difficulty. The player must have access to appropriate tools and workspace, and must hold the relevant crafting skill in the skill web.  The player then makes a Cumulative (Wit) check against the difficulty. Multiple players may cooperate on a single project, pooling their cumulative successes.
 
 
 ### Investigate
@@ -95,10 +94,9 @@ A player Researches by announcing the specific piece of information they wish to
 
 ### Rest
 
-Notes:
- - improves regen of *SOMETHING*. Exact mechanic TBD. probably long-term health regen or "action point" style resources.
- - long-term injuries, curses, diseases, etc, require Rest to fix, with consecutive days increasing chances of recovery
- - Cumulative Might roll to recover.
+Resting is for when players wish to recover from lasting injuries, shake off persistent conditions, or simply pass the time.
+
+A player Rests by announcing their intention to do so. This automatically succeeds, and they make no other Downtime action that day. After each day of Resting, a player may make a Cumulative (Might) check against the difficulty of any one long-term conditions they wish to recover from.
 
 
 ### Trade
@@ -110,8 +108,13 @@ Provided the desired goods can be found within the current Settlement, and the p
 
 ### Train
 
-Notes:
- - requires a trainer or unspent skill points. exact mechanic tbd but allows a player to pick options in the skill tree.
+Training is for when players wish to improve their skills and abilities on the skill web.
+
+A player Trains by announcing which skill they wish to learn. They must have the prerequisites for that skill (the connecting node in the web) and meet one of the following conditions:
+- They have an unspent skill point available (awarded at the GM's discretion, typically after completing a significant objective or milestone).
+- They have access to a trainer who can teach the skill, and can afford their fee.
+
+The player then makes a Cumulative check with the relevant ability against the difficulty of learning the skill. You may decide that circumstances such as access to a mentor or training facility (or lack thereof) influences the difficulty total.
 
 
 ### Work
@@ -148,103 +151,3 @@ Every day of Downtime, make a **world action** roll (Cumulative d6, tiered), the
 Settlements are the primary source of **information** about the world beyond the party's current hex. The GM should use rumours to surface relevant content: nearby Points of Interest, faction activity, regional hazards, and opportunity.
 
 The range and reliability of information scales with settlement size. A village knows its own valleys; a city knows the continent. Some information is freely given, while some requires trust, payment, or successful social checks.
-
-
-## Settlements
-
-Running Downtime requires a clear picture of the Settlement that the players are in. You are of course free to build Settlements however you like, but some rules are provided here that can be used as a scaffolding.
-
-Briefly put, you should make the players aware of the scale of the Settlement, so they have some idea of what goods and services will be available -- the larger the settlement, the more varied and the better the access. The scale of the Settlement also affects how players move through it, and how this motion is narrated.
-
-This system conceives of Settlement structure and travel as a **point crawl**. This means that points of interest exist as isolated scenes connected by short legs of travel that automatically succeeds (with perhaps a line or two of narration).
-
-### Settlement Types
-
-Settlements come in three sizes, each with different capabilities and available services.
-
-**Village**: a small community of farmers, fisherfolk, or craftspeople. Basic necessities are available: food, shelter, and simple tools. Commercial activity is limited and specialist knowledge is rare, but locals know their land well and news travels fast.
-
-**Town**:  a regional hub with a market, multiple inns, and a range of specialist services. Merchants carry a broader inventory. Guilds, temples, and local authorities have a visible presence. Enough traffic passes through to generate rumours, skilled work, and faction activity.
-
-**City**: a major population centre with extensive commerce, competing factions, and specialist institutions: academies, hospitals, courts, criminal networks. Almost anything can be bought, hired, or arranged for a price, and with the right contacts.
-
-There are two other settlement tiers you can consider that fulfil thematic purposes, but are not tied to any game mechanics. A **Thorp** is a tiny cluster of dwellings, which can offer food and shelter for a night, but little else. This scale is too small to have any meaningful game mechanics associated to it and instead is just used as a safe location to rest during Travel mode.  On the other hand, a **Metropolis** is an enormous, sprawling urban setting. At this scale, the Metropolis is too large for players to meaningfully engage with as a Settlement in its entirety; instead, it is simply a mechanism to paint an urban environment, as a backdrop for all the normal modes of play.
-
-### Services
-
-Services available in a settlement depend on its tier:
-
-| Service | Village | Town | City |
-|---|---|---|---|
-| Food and lodging | Basic | Good | All qualities |
-| General supplies | Basic | Standard | Specialist |
-| Healing | Herbalist | Apothecary | Physician |
-| Rumours | Local only | Regional | Wide |
-| Skill training | - | Common skills | Any skill |
-| Work | Labourers | Most roles | Any role |
-| Faction access | Individuals only | Minor factions | Major and minor |
-
-These are guidelines, not hard limits. A village with a retired war veteran might offer unexpected training; a corrupt city might withhold services that should be available.
-
-### Building Settlements
-
-The smallest unit of scale is the **neighbourhood**, usually containing a single point of interest; neighbourhoods can be grouped into **districts** for additional thematics or flavour.
-
-#### Neighbourhoods
-
-A **neighbourhood** is a cluster of dwellings that is just large enough to contain a single **point of interest** and a single **notable NPC** with ties to the wider world. A point of interest can be tied to this NPC or to a profession or particular faction, offering either narrative flavour or access to goods and services beyond what is accessible from the general populace.
-
-Neighbourhoods are what provide the backdrop to the urban environment and so their themes provide all the flavour for Downtime activities.
-
-**Neighbourhood Themes (non-centres)**
-| Theme | Description |
-|---|---|
-| Docks | |
-| Markets | |
-| Academic | |
-| Slums | |
-| Mansions | |
-| Trades | |
-
-
-#### Points Of Interest
-
-**PoIs offering Goods and Services**
-| Type | Tier 1 | Tier 2 | Tier 3 | Description |
-|---|---|---|---|---|
-| Political | Hall | ? | Palace | |
-| Religious | Shrine | Temple | Cathedral(?) | |
-| Military | Keep | Fort | Castle | |
-| Economic | ? | Market | Bazaar | |
-| Academic | ? | Library | Academy(?) | |
-| Social | ? | Tavern(?) | ? | |
-
-Notes/TODOs/others/misc
- - clock tower
- - abandoned mansion
- - famous statue, fountain, park/garden
- - ruin of older civilisation
- - unusual geography or other feature
- - famous goods or service providers
- - well or spring
- - feature favoured by a god or relevant to historical figure
-
-#### Districts
-
-A **district** is a cluster of about 3 neighbourhoods with a common theme.
-
-#### Centres
-
-A **centre** is the core of Settlement and where its most important individuals cluster. Give centres a notable social feature that the players can engage with, such as an NPC or faction, appropriate to the scale of the Settlement.
-
-#### Building a Village
-
-A **village** consists of a single neighbourhood that is also its centre. Therefore, a village contains only a single Tier 1 point of interest and a single notable NPC with ties to the broader world.
-
-#### Building a Town
-
-A **town** consists of a single district; one neighbourhood that forms its centre and two to three surrounding neighbourhoods each at the scale of a village, but with distinct themes; the difference is that the notable NPCs are restricted in influence to the town only. The central neighbourhood contains a tier 2 point of interest and representatives of a single minor faction with ties to the broader world.
-
-#### Building a City
-
-A **city** consists of one central district and two to three surrounding districts. Each surrounding district is the scale of a single Town, each with a distinct theme; the difference is that the minor factions are restricted in scope and influence to the city only. The central district contains the city centre and two to three surrounding neighbourhoods, each at the scale of a Town Centre (so containing a Tier 2 point of interest and representatives of a minor faction with ties to the broader word); the City Centre contains a Tier 3 point of interst and representatives of a major faction.
