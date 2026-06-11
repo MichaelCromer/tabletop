@@ -49,14 +49,20 @@ Camping consumes one unit of rations per player and, if circumstances demand it,
 
 The act of Camping covers multiple potential sub-actions, such as resting, studying, or standing guard; you may opt to narrate these sub-actions more freely than other Travel actions, as you might during Downtime. However, you shouldn't take the narrative pressure off completely, since the Overland is significantly more hazardous than a Settlement.
 
-Each player must make two Camp actions per day in order to avoid fatigue. Each successful Camp action replenishes a player's Action Points by one. Additionally, players may make a Cumulative (Might) roll during consecutive Camp actions to recover from Wounds and other long-term status effects.
+Each player must complete two Camp actions per day in order to avoid fatigue. Each successful Camp action replenishes a player's Action Points by one. Additionally, players may make a Cumulative (Might) roll at the end of each consecutive Camp action to recover from Wounds and other long-term status effects.
 
 
 ### Conceal
 
 Concealment is for when players wish to avoid detection.
 
-A player 
+A player Conceals by describing how they hide their presence: covering tracks, stashing gear, muffling sound, or otherwise obscuring signs of their activity. They then make a Circumstance check; better cover or dim lighting grants bonus dice, while open ground or a larger group imposes penalties.
+
+Each six rolled determines the quality of concealment:
+- **1 six:** Signs of your presence are reduced. Enemies must succeed on a Circumstance check to track the party through this tile.
+- **2+ sixes:** Your trail is well-hidden. Only a deliberate Search of the tile will reveal evidence of the party's passage.
+
+A Conceal action can be used prior to Camping if the party wishes to set up a hidden campsite, or prior to Moving if they wish to travel unsees. A successful Conceal check can only provide cover for one subsequent action.
 
 
 ### Forage
@@ -125,9 +131,9 @@ Some suggested base dice counts are given in the following table.
 | Swamp    | 1 |
 | Water    | - |
 
-TODO gradations of success? success on any roll of a six? repeated attempts reveal different information, randomly (how to decide?)?
+Success is measured by the number of sixes rolled. One six reveals basic information (terrain, obvious features, signs of significant presences). Two or more sixes reveals more detail (specific resources, hidden paths, precise locations of hazards). At your discretion, you may ether determine randomly what each subsequent Scout action uncovers, or tie it to the player's stated intent. You may also decide whether repeated attempts on the same tile may reveal new information.
 
-The following is an example of what sort of information a Scout can learn about a tile:
+The following is an example of what sort of information a successful Scout action can reveal about a tile:
  - the locations of food and water sources, or shelter;
  - the presence and nature of environmental hazards;
  - tracks or other signs of passage and habitation;
@@ -143,12 +149,41 @@ A player Searches by announcing exactly what they would like to find in the curr
 
 ## Environment Actions
 
+Each Travel turn, choose or roll for environmental developments. Each time the players successfully Move to a new tile or successfully spend resources Camping, roll a Cumulative check. On a success, something changes in the environment that affects the players' journey. As GM, it is up to you to determine exatly what this means for your game.
+
+| Action | Description |
+|---|---|
+| Weather | The weather changes. |
+| Hazard | Something in the natural environment poses a challenge. |
+| Encounter | The players encounter a (potentially hostile) force. |
+
 ### Weather
+
+Generate weather appropriate to the region and season. At minimum, note whether conditions are **clear**, **cloudy**, **rainy**, or **stormy**. You can use a d6 roll against a terrain-specific table if you prefer random generation.
+
+Harsh weather imposes a penalty die on Circumstance checks and may increase Move or other Travel action costs (stormy conditions add +1 turn to all Move actions).
+
 ### Hazards
+
+ rockfall, flash flood, quicksand, a collapsed bridge, or similar. Resolve hazards as an Ability check or Circumstance check as appropriate. A hazard may block passage until dealt with, cost resources to bypass, or inflict a status effect on failure.
+
 ### Status Effects
 
- - Hungry / Famished / Starving
- - Tired / Fatigued/ Exhausted
- - Cold / Freezing
- - Hot / Burned
- - Wet
+Status effects accumulate from environmental exposure, missed Camps, or hazard failures. Each has three tiers of severity.
+
+**Hunger** — accrues when a player goes a full day without a Camp action that includes a meal.
+- **Hungry:** Cannot regain Action Points from Camping.
+- **Famished:** Disadvantage on all Might checks.
+- **Starving:** Take 1 Wound per Travel turn until fed.
+
+**Fatigue** — accrues when a player gets fewer than two Camp actions per day.
+- **Tired:** Cannot regain Action Points from Camping.
+- **Fatigued:** Disadvantage on all Circumstance checks.
+- **Exhausted:** Cannot take Move actions.
+
+**Exposure** — accrues in extreme temperatures without appropriate shelter.
+- **Cold / Hot:** Cannot regain Action Points from Camping without shelter.
+- **Freezing / Burned:** Disadvantage on all checks.
+- **Frostbitten / Sunstruck:** Take 1 Wound per Travel turn until treated.
+
+A single Camp action in appropriate conditions reduces one status by one tier.
