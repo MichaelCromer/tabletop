@@ -25,6 +25,7 @@ Some tips you might consider:
  - Likewise, freely permit players to travel between points of interest as required to complete their actions. Compress this movement into one or two lines of narration, simply to give environmental flavour to the scene.
  - Rumours are a good way to feed your players with information about the game world. Without information, your players can't make decisions about what to do next, so you should not be shy about providing it to them -- instead of hiding rumours behind player actions or skill checks, player characters should naturally become more aware of rumours and current events the longer they stay in town. World actions are an ideal means for delivering this kind of information.
 
+
 ## Downtime Actions
 
 Here is a list of Downtime actions that players can take. You may wish to add or remove options to this list depending on the circumstances.
@@ -42,25 +43,6 @@ Here is a list of Downtime actions that players can take. You may wish to add or
 | Train | Improve one's skills and abilities |
 | Work | Practice a profession or trade in return for profit |
 
-### Downtime Rolls
-
-Most Downtime actions are resolved using a Cumulative (Ability) roll:
- - The player initially rolls a pool of (1+N)d6, where N is their bonus for the relevant ability.
- - If any one die shows a six, the roll overall counts as one success. If more than one die shows a six, the roll overall counts as three successes. If no die shows a six, the roll overall counts as one failure.
- - For each consecutive day the action is repeated, the dice pool increases by 1d6.
- - The player tallies the number of successes, resolving the action when they attain the required number of successes.
-
-Since many Downtime activities are naturally collaborative, if multiple players wish to contribute to a task, have them roll individually but track their successes and failures in a shared total.
-
-As GM, you may optionally apply penalties for failures, if the situation warrants it. You may even choose to have the action fail entirely if they accumulate too many failures. However, unless there is a good narrative or gameplay reason for failure, you should err on the side of allowing player actions to succeed.
-
-The suggested difficulties for Downtime rolls are:
-| Difficulty | Successes |
-|---|---|
-| Easy   |  3 |
-| Medium |  6 |
-| Hard   | 10 |
-
 
 ### Carouse
 
@@ -76,8 +58,7 @@ Notes:
 Notes:
  - gold and crafting materials investment needed
  - player must have specific crafting skill of required level
- - requires a number of successes
- - success chance increases per consecutive day spent
+ - Cumulative Wit roll
 
 
 ### Investigate
@@ -102,7 +83,7 @@ Praying is for when players wish to request aid, knowledge, or some other divine
 
 A player Prays by announcing which deity they are praying to and which specific divine action they wish to occur. The player must be known to the deity (as an established follower, perhaps), or otherwise have some reason for the deity to care about them.
 
-The player then makes a plain d6 roll with cumulative successes and failures (one failure on a roll of no sixes, one success on a roll of one six, three successes on a roll of more than one six). Praying does not benefit from any ability score, and the number of dice does not increase with repeated consecutive attempts. Instead, a player may increase the number of dice rolled in any one attempt by Praying under more favourable circumstances: following correct ritual procedure, praying within a temple or other hallowed space, performing sacrifices, dedicating deeds to the deity in question, and other such acts.
+The player then makes a Circumstance roll, with degrees of success based at your discretion as GM on how significant the player's request is. Praying does not benefit from any ability score, and the number of dice does not increase with repeated consecutive attempts. Instead, a player may increase the number of dice rolled in any one attempt by Praying under more favourable circumstances: following correct ritual procedure, praying within a temple or other hallowed space, performing sacrifices, dedicating deeds to the deity in question, and other such acts.
 
 
 ### Research
@@ -117,6 +98,7 @@ A player Researches by announcing the specific piece of information they wish to
 Notes:
  - improves regen of *SOMETHING*. Exact mechanic TBD. probably long-term health regen or "action point" style resources.
  - long-term injuries, curses, diseases, etc, require Rest to fix, with consecutive days increasing chances of recovery
+ - Cumulative Might roll to recover.
 
 
 ### Trade
