@@ -75,7 +75,7 @@ A player Searches by announcing what kind of thing they are looking for. They ma
 
 Concealment is for when players wish to avoid detection: hiding in the current area, muffling their movements, or preparing to slip past a threat.
 
-A player Conceals by describing how they hide their presence: ducking behind cover, pressing into shadows, silencing their gear. They make a Circumstance check; available cover, dim lighting, or distracting conditions grant bonus dice, while open ground or loud equipment imposes penalties. Concealing takes one Exploration turn.
+A player Conceals by describing how they hide their presence: ducking behind cover, pressing into shadows, silencing their gear. They make a Circumstance check; available cover, dim lighting, or distracting conditions grant bonus dice. Concealing takes one Exploration turn.
 
 While concealed, the player remains undetected in their current location as long as they continue to Wait on subsequent turns. Taking any other action, such as Interacting with the environment, Moving, Searching, breaks concealment. A Conceal action can also provide cover for one subsequent Move action: if the player Conceals on one turn and then Moves on a following turn (with only Wait actions in between), they slip through to the destination unnoticed and the Conceal check is expended. To conceal themselves again they must take another Conceal action.
 
