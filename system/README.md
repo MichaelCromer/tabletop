@@ -129,7 +129,7 @@ At the start of every moment, before resolving any actions, each character may m
 Standard minor actions include:
  - **Move (Cost 1)** Move an extra hex this moment.
  - **Drop/Stand (Cost 1/3)** Fall to/rise from prone
- - **Make Check (Cost 1)** Perform any skill check.
+ - **Make Check (Cost 1)** Perform any Test or Attempt.
  - [TODO]
 
 #### Action Points
@@ -155,13 +155,13 @@ Every character has three attributes that reflect their fundamental nature:
 
 At character creation, players distribute **3 points** across these three attributes. A value of 0 in an attribute represents a genuine weakness; 1 is competent; 2 is exceptional; 3 is a defining trait. All combinations are valid — a 3/0/0 specialist plays very differently from a 1/1/1 generalist.
 
-### Skill Checks
+### Tests
 
-When a character attempts something with an uncertain outcome, they make a **skill check**: roll **2d6** and add the most relevant attribute. The result is compared to a difficulty set by the GM.
+When a character attempts something with an uncertain outcome, they make a **(Ability) Test**: roll **2d6** and add the most relevant attribute. The result is compared to a difficulty set by the GM.
 
 When circumstances provide a meaningful advantage, roll **3d6 and drop the lowest**. When at a meaningful disadvantage, roll **3d6 and drop the highest**.
 
-Skills in the skill web may modify checks further — granting flat bonuses, unlocking outcomes unavailable to the untrained, or allowing a different attribute to apply.
+Skills in the skill web may modify Tests further — granting flat bonuses, unlocking outcomes unavailable to the untrained, or allowing a different attribute to apply.
 
 ### Character Creation
 

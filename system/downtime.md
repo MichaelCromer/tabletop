@@ -23,7 +23,7 @@ Some tips you might consider:
  - Some actions may span several days (for instance, a player is crafting a magic item and will continue to do so until it is complete), while some actions would realistically only occupy a few minutes (like meeting with an important NPC). Compress or expand your narration to suit these circumstances; afford the crafting player a few sentences describing their efforts and the eventual outcome, and then allow the negotiation scene to play out in real time. Generally, if the outcome of a multi-day action will not materially affect the flow of the game, you should just narrate the outcome, rather than each day of effort.
  - It can be assumed the party has plenty of time to coordinate. Be generous in allowing the players to retroactively change the order of events or even entire actions, provided it makes sense to do so.
  - Likewise, freely permit players to travel between points of interest as required to complete their actions. Compress this movement into one or two lines of narration, simply to give environmental flavour to the scene.
- - Rumours are a good way to feed your players with information about the game world. Without information, your players can't make decisions about what to do next, so you should not be shy about providing it to them -- instead of hiding rumours behind player actions or skill checks, player characters should naturally become more aware of rumours and current events the longer they stay in town. World actions are an ideal means for delivering this kind of information.
+ - Rumours are a good way to feed your players with information about the game world. Without information, your players can't make decisions about what to do next, so you should not be shy about providing it to them -- instead of hiding rumours behind player actions or Tests or Attempts, player characters should naturally become more aware of rumours and current events the longer they stay in town. World actions are an ideal means for delivering this kind of information.
 
 
 ## Downtime Actions
@@ -48,7 +48,7 @@ Here is a list of Downtime actions that players can take. You may wish to add or
 
 Carousing is for when players wish to celebrate, network, or simply enjoy the pleasures of civilisation.
 
-A player Carouses by announcing how much gold they wish to spend and the kind of establishment they patronise. They then make a Circumstance check, where each day's living expenses worth of gold paid incresases the number of dice by one. Charm may grant bonus dice at your discretion.
+A player Carouses by announcing how much gold they wish to spend and the kind of establishment they patronise. They then make a Situation Attempt, where each day's living expenses worth of gold paid incresases the number of dice by one. Charm may grant bonus dice at your discretion.
 
 TODO: Implement table or other outcome decided balancing risk/reward, pushed to extremes by consecutive Carousing.
 
@@ -57,23 +57,23 @@ TODO: Implement table or other outcome decided balancing risk/reward, pushed to 
 
 Crafting is for when players wish to create items:  equipment, consumables, works of art, or magic items.
 
-A player Crafts by announcing what they wish to make. You set the cost in gold and materials and the difficulty. The player must have access to appropriate tools and workspace, and must hold the relevant crafting skill in the skill web.  The player then makes a Cumulative (Wit) check against the difficulty. Multiple players may cooperate on a single project, pooling their cumulative successes.
+A player Crafts by announcing what they wish to make. You set the cost in gold and materials and the difficulty. The player must have access to appropriate tools and workspace, and must hold the relevant crafting skill in the skill web.  The player then makes a Progress (Wit) Attempt against the difficulty. Multiple players may cooperate on a single project, pooling their cumulative successes.
 
 
 ### Investigate
 
 Investigation is for when a player wishes to learn something about the people, places, and things in their environment: rumours, gossip, secrets, or local lore.
 
-A player Investigates by announcing a specific piece of information they wish to learn more about.  They then make a Cumulative (Charm) roll against the difficulty of learning this information. As GM, you may decide if this effort has a chance of meaningful failure; perhaps the information is sensitive or the investigation attracts unwanted attention.
+A player Investigates by announcing a specific piece of information they wish to learn more about.  They then make a Progress (Charm) Attempt against the difficulty of learning this information. As GM, you may decide if this effort has a chance of meaningful failure; perhaps the information is sensitive or the investigation attracts unwanted attention.
 
 
 ### Meet
 
 Meeting is for when players wish to have a social encounter with a specific NPC.
 
-A player Meets by announcing a specific NPC within the Settlement they would like to meet with. The player must have the means to locate and communicate with the NPC in question (learning how to find or contact the NPC could be the outcome of a prior Investigation roll, for example). There are two phases to resolving this action.
+A player Meets by announcing a specific NPC within the Settlement they would like to meet with. The player must have the means to locate and communicate with the NPC in question (learning how to find or contact the NPC could be the outcome of a prior Investigation Attempt, for example). There are two phases to resolving this action.
 
-If the player(s) can reasonably meet with the NPC directly, then this action progresses immediately to a social interaction scene. Otherwise, the player(s) must make a Cumulative (Charm) roll against the difficulty of arranging a meeting with the NPCs.  As GM, you decide whether there is any meaningful consequences for failure; perhaps the NPC becomes irritated by the attempts to contact them, and begins the social encounter with a negative disposition.
+If the player(s) can reasonably meet with the NPC directly, then this action progresses immediately to a social interaction scene. Otherwise, the player(s) must make a Progress (Charm) Attempt against the difficulty of arranging a meeting with the NPCs.  As GM, you decide whether there is any meaningful consequences for failure; perhaps the NPC becomes irritated by the attempts to contact them, and begins the social encounter with a negative disposition.
 
 
 ### Pray
@@ -82,21 +82,21 @@ Praying is for when players wish to request aid, knowledge, or some other divine
 
 A player Prays by announcing which deity they are praying to and which specific divine action they wish to occur. The player must be known to the deity (as an established follower, perhaps), or otherwise have some reason for the deity to care about them.
 
-The player then makes a Circumstance roll, with degrees of success based at your discretion as GM on how significant the player's request is. Praying does not benefit from any ability score, and the number of dice does not increase with repeated consecutive attempts. Instead, a player may increase the number of dice rolled in any one attempt by Praying under more favourable circumstances: following correct ritual procedure, praying within a temple or other hallowed space, performing sacrifices, dedicating deeds to the deity in question, and other such acts.
+The player then makes a Situation Attempt, with degrees of success based at your discretion as GM on how significant the player's request is. Praying does not benefit from any ability score, and the number of dice does not increase with repeated consecutive attempts. Instead, a player may increase the number of dice rolled in any one attempt by Praying under more favourable circumstances: following correct ritual procedure, praying within a temple or other hallowed space, performing sacrifices, dedicating deeds to the deity in question, and other such acts.
 
 
 ### Research
 
 Research is for when players wish to learn some piece of information about a specific person, place or thing: history, arcane or academic lore, and other such things of this nature.
 
-A player Researches by announcing the specific piece of information they wish to learn more about.  Provided they have access to the required resources (such as specific tomes, or specific individuals), they then make a Cumulative (Wit) roll against the difficulty of learning this information. Typically, there is no chance of meaningful failure once the conditions of obtaining the information are met.
+A player Researches by announcing the specific piece of information they wish to learn more about.  Provided they have access to the required resources (such as specific tomes, or specific individuals), they then make a Progress (Wit) Attempt against the difficulty of learning this information. Typically, there is no chance of meaningful failure once the conditions of obtaining the information are met.
 
 
 ### Rest
 
 Resting is for when players wish to recover from lasting injuries, shake off persistent conditions, or simply pass the time.
 
-A player Rests by announcing their intention to do so. This automatically succeeds, and they make no other Downtime action that day. After each day of Resting, a player may make a Cumulative (Might) check against the difficulty of any one long-term conditions they wish to recover from.
+A player Rests by announcing their intention to do so. This automatically succeeds, and they make no other Downtime action that day. After each day of Resting, a player may make a Progress (Might) Attempt against the difficulty of any one long-term conditions they wish to recover from.
 
 
 ### Trade
@@ -114,7 +114,7 @@ A player Trains by announcing which skill they wish to learn. They must have the
 - They have an unspent skill point available (awarded at the GM's discretion, typically after completing a significant objective or milestone).
 - They have access to a trainer who can teach the skill, and can afford their fee.
 
-The player then makes a Cumulative check with the relevant ability against the difficulty of learning the skill. You may decide that circumstances such as access to a mentor or training facility (or lack thereof) influences the difficulty total.
+The player then makes a Progress Attempt with the relevant ability against the difficulty of learning the skill. You may decide that circumstances such as access to a mentor or training facility (or lack thereof) influences the difficulty total.
 
 
 ### Work
@@ -134,7 +134,7 @@ Exactly what work is available will depend on the location and the specifics of 
 
 The game world continues to advance while the players are in Downtime. As GM, you are responsible for what this means exactly within your own game world -- which events specifically advance the narrative -- but here are some generic options that you can adapt to your needs.
 
-Every day of Downtime, make a **world action** roll (Cumulative d6, tiered), then choose from or roll for one of these options.
+Every day of Downtime, make a **world action** roll (Progress d6, tiered), then choose from or roll for one of these options.
 
 | Tier | Event |
 |---|---|

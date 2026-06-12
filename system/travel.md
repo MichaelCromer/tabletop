@@ -49,17 +49,17 @@ Camping consumes one unit of rations per player and, if circumstances demand it,
 
 The act of Camping covers multiple potential sub-actions, such as resting, studying, or standing guard; you may opt to narrate these sub-actions more freely than other Travel actions, as you might during Downtime. However, you shouldn't take the narrative pressure off completely, since the Overland is significantly more hazardous than a Settlement.
 
-Each player must complete two Camp actions per day in order to avoid fatigue. Each successful Camp action replenishes a player's Action Points by one. Additionally, players may make a Cumulative (Might) roll at the end of each consecutive Camp action to recover from Wounds and other long-term status effects.
+Each player must complete two Camp actions per day in order to avoid fatigue. Each successful Camp action replenishes a player's Action Points by one. Additionally, players may make a Progress (Might) Attempt at the end of each consecutive Camp action to recover from Wounds and other long-term status effects.
 
 
 ### Conceal
 
 Concealment is for when players wish to avoid detection.
 
-A player Conceals by describing how they hide their presence: covering tracks, stashing gear, muffling sound, or otherwise obscuring signs of their activity. They then make a Circumstance check; better cover or dim lighting grants bonus dice, while open ground or a larger group imposes penalties.
+A player Conceals by describing how they hide their presence: covering tracks, stashing gear, muffling sound, or otherwise obscuring signs of their activity. They then make a Situation Attempt; better cover or dim lighting grants bonus dice, while open ground or a larger group imposes penalties.
 
 Each six rolled determines the quality of concealment:
-- **1 six:** Signs of your presence are reduced. Enemies must succeed on a Circumstance check to track the party through this tile.
+- **1 six:** Signs of your presence are reduced. Enemies must succeed on a Situation Attempt to track the party through this tile.
 - **2+ sixes:** Your trail is well-hidden. Only a deliberate Search of the tile will reveal evidence of the party's passage.
 
 A Conceal action can be used prior to Camping if the party wishes to set up a hidden campsite, or prior to Moving if they wish to travel unsees. A successful Conceal check can only provide cover for one subsequent action.
@@ -69,7 +69,7 @@ A Conceal action can be used prior to Camping if the party wishes to set up a hi
 
 Foraging is for when players wish to gather supplies from their surrounds.
 
-A player Forages by declaring what type of supplies they are foraging for; for example, "food", or "firewood". They then make a Circumstance roll. The base difficulty covers Foraging in the most challenging of circumstances, so clement weather or less wild surrounds should confer some bonus. As GM, you should also consider allowing Foraging to synergise with Scouting, so that players Foraging in a tile that has been Scouted can benefit from the party's better knowledge of the terrain.
+A player Forages by declaring what type of supplies they are foraging for; for example, "food", or "firewood". They then make a Situation Attempt. The base difficulty covers Foraging in the most challenging of circumstances, so clement weather or less wild surrounds should confer some bonus. As GM, you should also consider allowing Foraging to synergise with Scouting, so that players Foraging in a tile that has been Scouted can benefit from the party's better knowledge of the terrain.
 
 Some suggested base dice counts are given in the following table.
 
@@ -115,7 +115,7 @@ Different terrain types have different difficulties associated to their Move act
 
 Scouting is for when players wish to learn general information about this or a neighbouring tile.
 
-A player Scouts by announcing which tile they would like to investigate. They then make a Circumstance roll. The base difficulty covers Scouting in the most challenging of circumstances, so clement weather or less wild surrounds should offer some bonus dice. Scouting a neighbouring tile is more difficult than Scouting the current one, and the Scouting player does not Move to that tile. Each instance of Scouting takes one Travel turn.
+A player Scouts by announcing which tile they would like to investigate. They then make a Situation Attempt. The base difficulty covers Scouting in the most challenging of circumstances, so clement weather or less wild surrounds should offer some bonus dice. Scouting a neighbouring tile is more difficult than Scouting the current one, and the Scouting player does not Move to that tile. Each instance of Scouting takes one Travel turn.
 
 Some suggested base dice counts are given in the following table.
 
@@ -145,11 +145,11 @@ The following is an example of what sort of information a successful Scout actio
 
 Searching is for when players wish to locate a specific feature within the current tile.
 
-A player Searches by announcing exactly what they would like to find in the current tile. They then make a Cumulative (Wit) roll against the difficulty of locating this feature. Each instance of the Search action requires two Travel turns, and can only count as a success if these turns are taken consecutively and are uninterrupted. Players searching simultaneously may pool their successes together.
+A player Searches by announcing exactly what they would like to find in the current tile. They then make a Progress (Wit) Attempt against the difficulty of locating this feature. Each instance of the Search action requires two Travel turns, and can only count as a success if these turns are taken consecutively and are uninterrupted. Players searching simultaneously may pool their successes together.
 
 ## Environment Actions
 
-Each Travel turn, choose or roll for environmental developments. Each time the players successfully Move to a new tile or successfully spend resources Camping, roll a Cumulative check. On a success, something changes in the environment that affects the players' journey. As GM, it is up to you to determine exatly what this means for your game.
+Each Travel turn, choose or roll for environmental developments. Each time the players successfully Move to a new tile or successfully spend resources Camping, roll a Progress Attempt. On a success, something changes in the environment that affects the players' journey. As GM, it is up to you to determine exatly what this means for your game.
 
 | Action | Description |
 |---|---|
@@ -161,11 +161,11 @@ Each Travel turn, choose or roll for environmental developments. Each time the p
 
 Generate weather appropriate to the region and season. At minimum, note whether conditions are **clear**, **cloudy**, **rainy**, or **stormy**. You can use a d6 roll against a terrain-specific table if you prefer random generation.
 
-Harsh weather imposes a penalty die on Circumstance checks and may increase Move or other Travel action costs (stormy conditions add +1 turn to all Move actions).
+Harsh weather imposes a penalty die on Situation Attempts and may increase Move or other Travel action costs (stormy conditions add +1 turn to all Move actions).
 
 ### Hazards
 
- rockfall, flash flood, quicksand, a collapsed bridge, or similar. Resolve hazards as an Ability check or Circumstance check as appropriate. A hazard may block passage until dealt with, cost resources to bypass, or inflict a status effect on failure.
+ rockfall, flash flood, quicksand, a collapsed bridge, or similar. Resolve hazards as an Test or Situation Attempt as appropriate. A hazard may block passage until dealt with, cost resources to bypass, or inflict a status effect on failure.
 
 ### Status Effects
 
@@ -178,12 +178,12 @@ Status effects accumulate from environmental exposure, missed Camps, or hazard f
 
 **Fatigue** — accrues when a player gets fewer than two Camp actions per day.
 - **Tired:** Cannot regain Action Points from Camping.
-- **Fatigued:** Disadvantage on all Circumstance checks.
+- **Fatigued:** Disadvantage on all Situation Attempts.
 - **Exhausted:** Cannot take Move actions.
 
 **Exposure** — accrues in extreme temperatures without appropriate shelter.
 - **Cold / Hot:** Cannot regain Action Points from Camping without shelter.
-- **Freezing / Burned:** Disadvantage on all checks.
+- **Freezing / Burned:** Disadvantage on all Tests and Attempts.
 - **Frostbitten / Sunstruck:** Take 1 Wound per Travel turn until treated.
 
 A single Camp action in appropriate conditions reduces one status by one tier.
